@@ -11,7 +11,7 @@ test('LoginAPI', async({request})=>{
     }
 
 const response = await request.post(`${baseURL}/api/auth/public/login`,{
-
+  
 data:payload
 });
 
